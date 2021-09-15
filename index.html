@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta  name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+  <title> The Parichay Card</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-box">
+  <h2>The Parichay Card</h2>
+  <form method="POST" action = "./welcome.php" >
+
+    <div class="user-box">
+      <input type="text" name="fname" id="fname" required="">
+      <label>Full Name</label>
+    </div>
+
+    <div class="user-box">
+      <input type="name" name="instaid" id ="instaid" required="">
+      <label>Instagram Handle</label>
+    </div>
+
+     <div class="user-box">
+       <input type="name" name="phone" id ="phone" required="" min="10" max="10"> <!-- yaar ye ho kyu nai raha 10 digit, number daalta toh css overlap ho jaata -->
+      <label>Phone Number</label>
+    </div>
+
+    <div class="user-box">
+      <input type="name" name="add" id ="add" required="">
+      <label>Address</label>
+    </div>
+
+    
+
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <label><input type="submit" name="submit" value="Push me"></label>
+	  
+    </a>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
