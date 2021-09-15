@@ -14,8 +14,6 @@ img {
   
 </head>
 <body>
-
- name- <?php if(isset($_POST['submit'])) echo $_POST["fname"]; ?> 
   
 <div class=content>
   <div class="wrapper-1">
